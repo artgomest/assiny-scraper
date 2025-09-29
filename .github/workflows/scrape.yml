@@ -1,0 +1,46 @@
+name: Scrape Assiny every 10 min
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # a cada 10 min (UTC)
+  workflow_dispatch: {}       # permite rodar manualmente
+
+permissions:
+  contents: write   # permitir commit/push com GITHUB_TOKEN
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps
+
+      - name: Run scraper
+        env:
+          STORAGE_STATE_JSON: ${{ secrets.STORAGE_STATE_JSON }}
+        run: |
+          python assiny_scraper.py
+
+      - name: Commit & push CSV if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # só commita se houve mudança
+          git add valor_assiny.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "update valor_assiny.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          else
+            echo "Sem alterações no CSV."
+          fi
