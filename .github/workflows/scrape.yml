@@ -1,0 +1,42 @@
+name: Assiny Scraper Automation
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # Executa a cada 10 minutos
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    env:
+      STORAGE_STATE_JSON: ${{ secrets.STORAGE_STATE_JSON }}
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Instalar Playwright
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+
+      - name: Rodar scraping
+        run: |
+          echo "$STORAGE_STATE_JSON" > google_login.json
+          source venv/bin/activate
+          python assiny_scraper.py
+        env:
+          STORAGE_STATE_JSON: ${{ secrets.STORAGE_STATE_JSON }}
+
+      - name: Commit e push do CSV  # <-- Corrigido: estava com indentação errada
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add valor_assiny.csv
+          git commit -m "update valor_assiny.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Nada para commitar"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/EDEN-CORPORATE/assiny-scraper.git
