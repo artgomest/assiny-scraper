@@ -40,4 +40,4 @@ jobs:
           git add valor_assiny.csv
           git commit -m "update valor_assiny.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Nada para commitar"
           
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/EDEN-CORPORATE/assiny-scraper.git
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/artgomest/assiny-scraper.git
