@@ -32,11 +32,12 @@ jobs:
         env:
           STORAGE_STATE_JSON: ${{ secrets.STORAGE_STATE_JSON }}
 
-      - name: Commit e push do CSV  # <-- Corrigido: estava com indentação errada
+      - name: Commit e push do CSV
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
+      
           git add valor_assiny.csv
           git commit -m "update valor_assiny.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Nada para commitar"
+          
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/EDEN-CORPORATE/assiny-scraper.git
