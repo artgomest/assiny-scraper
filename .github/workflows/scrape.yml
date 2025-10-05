@@ -9,35 +9,52 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
-    env:
-      STORAGE_STATE_JSON: ${{ secrets.STORAGE_STATE_JSON }}
-
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: Instalar Playwright
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11' # Usar uma versão específica do Python
+
+      - name: Cache de dependências Pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Cache do Playwright
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Instalar dependências
         run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install --upgrade pip
-          pip install playwright
+          pip install -r requirements.txt
           playwright install chromium
 
       - name: Rodar scraping
-        run: |
-          echo "$STORAGE_STATE_JSON" > google_login.json
-          source venv/bin/activate
-          python assiny_scraper.py
+        run: python assiny_scraper.py
         env:
           STORAGE_STATE_JSON: ${{ secrets.STORAGE_STATE_JSON }}
 
       - name: Commit e push do CSV
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-      
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add valor_assiny.csv
-          git commit -m "update valor_assiny.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Nada para commitar"
           
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/artgomest/assiny-scraper.git
+          # Apenas commita se houver alterações no arquivo
+          if ! git diff --staged --quiet; then
+            git commit -m "Update valor_assiny.csv"
+            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+          else
+            echo "Nenhuma alteração para commitar."
+          fi

@@ -37,47 +37,45 @@ def extrair_valor(page):
 
 def aplicar_filtro_data(page):
     print("📅 Abrindo seletor de período...")
-    # seletor exato do botão de período
-    SELETOR_PERIODO = ("body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > "
+    seletor_periodo = ("body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > "
                        "section.sectionContent > div.sc-38a05be3-7.hWHaLI > div.sc-901aedfc-0.hankki > "
                        "div.sc-901aedfc-2.jJUZpK > span:nth-child(2) > div > div > button > button")
-    page.wait_for_selector(SELETOR_PERIODO, timeout=20000)
-    page.locator(SELETOR_PERIODO).click()
+    page.wait_for_selector(seletor_periodo, timeout=20000)
+    page.locator(seletor_periodo).click()
 
-    print("📌 Esperando aparecer botão 'Desde Sempre'...")
-    page.get_by_text("Desde sempre", exact=True).wait_for(timeout=15000)
+    print("📌 Selecionando 'Desde sempre'...")
     page.get_by_text("Desde sempre", exact=True).click()
 
     print("✅ Aplicando filtro de data...")
     page.get_by_role("button", name="Aplicar").nth(1).click()
-    time.sleep(3)
+    page.wait_for_load_state("networkidle", timeout=20000)
 
 def aplicar_filtro_produto(page, produto):
     print(f"🎯 Aplicando filtro de produto: {produto}")
-    BOTAO_FILTRO = "body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > section.sectionContent > div > div.sc-901aedfc-0.hankki > div.sc-901aedfc-2.jJUZpK > span:nth-child(2) > button"
-    page.wait_for_selector(BOTAO_FILTRO, timeout=15000)
-    page.locator(BOTAO_FILTRO).click()
-    time.sleep(1)
+    botao_filtro = "body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > section.sectionContent > div > div.sc-901aedfc-0.hankki > div.sc-901aedfc-2.jJUZpK > span:nth-child(2) > button"
+    page.wait_for_selector(botao_filtro, timeout=15000)
+    page.locator(botao_filtro).click()
 
-    SELECT_BOX = ("body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > "
+    select_box = ("body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > "
                   "section.sectionContent > div > div.sc-901aedfc-0.hankki > div.sc-b1ed7421-0.lbZwDZ > "
                   "div.sc-b1ed7421-2.eEgcfp > div > div.sc-b1ed7421-9.jdpVbC > div > div > "
                   "div.filter-middle_selects > div:nth-child(2) > div > div")
-    page.wait_for_selector(SELECT_BOX, timeout=15000)
-    page.locator(SELECT_BOX).click()
-    time.sleep(1)
+    page.wait_for_selector(select_box, timeout=15000)
+    page.locator(select_box).click()
 
     page.get_by_text(produto, exact=True).click()
-    time.sleep(1)
 
     page.get_by_role("button", name="Aplicar").click()
-    time.sleep(3)
+    page.wait_for_load_state("networkidle", timeout=20000)
 
 def limpar_filtro(page):
     try:
-        page.get_by_text("Limpar Filtro", exact=True).click()
-        time.sleep(1.5)
-    except:
+        limpar_button = page.get_by_text("Limpar Filtro", exact=True)
+        limpar_button.wait_for(timeout=5000)
+        limpar_button.click()
+        page.wait_for_load_state("networkidle", timeout=15000)
+    except Exception as e:
+        print(f"ⓘ Não foi possível limpar o filtro (provavelmente não havia um): {e}")
         pass
 
 def run():
@@ -88,9 +86,9 @@ def run():
 
         url = ("https://admin.assiny.com.br/organizations/51082a1f-ee65-47a7-92ef-6f49b7c14134/"
                "projects/148350ac-61bc-42b7-87ee-9c8ba95c983c/financial/transactions")
-        page.goto(url)
-        page.wait_for_load_state("networkidle")
-        time.sleep(2)
+
+        print("🚀 Acessando a página...")
+        page.goto(url, wait_until="networkidle", timeout=60000)
 
         aplicar_filtro_data(page)
 
