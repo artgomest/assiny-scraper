@@ -73,13 +73,6 @@ def aplicar_filtro_produto(page, produto):
     page.get_by_role("button", name="Aplicar").click()
     time.sleep(3)
 
-def limpar_filtro(page):
-    try:
-        page.get_by_text("Limpar Filtro", exact=True).click()
-        time.sleep(1.5)
-    except:
-        pass
-
 def run():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
