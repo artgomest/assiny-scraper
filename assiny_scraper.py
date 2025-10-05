@@ -91,7 +91,6 @@ def run():
 
         valores = []
         for produto in PRODUTOS:
-            limpar_filtro(page)
             aplicar_filtro_produto(page, produto)
             valores.append(extrair_valor(page))
 
