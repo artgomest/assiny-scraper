@@ -104,7 +104,7 @@ def aplicar_filtro_data(page):
     except Exception:
         print("Botão 'Aplicar' não encontrado ou não visível, seguindo em frente.")
 
-    page.wait_for_load_state("networkidle", timeout=60000)
+    page.wait_for_load_state("load", timeout=60000)
 
 def aplicar_filtro_produto(page, produto):
     print(f"🎯 Aplicando filtro de produto: {produto}")
@@ -135,7 +135,7 @@ def run():
                "projects/148350ac-61bc-42b7-87ee-9c8ba95c983c/financial/transactions")
 
         # 1. Obter o valor total primeiro
-        page.goto(url, wait_until="networkidle")
+        page.goto(url, wait_until="load")
 
         aplicar_filtro_data(page)
         valor_total = extrair_valor(page)
@@ -143,7 +143,7 @@ def run():
         # 2. Obter valores para cada produto
         valores = []
         for produto in PRODUTOS:
-            page.goto(url, wait_until="networkidle")
+            page.goto(url, wait_until="load")
 
             aplicar_filtro_data(page)
 
@@ -165,11 +165,7 @@ if __name__ == "__main__":
         with open(STORAGE_STATE_FILE, "w", encoding="utf-8") as f:
             f.write(os.environ["STORAGE_STATE_JSON"])
 
-    while True:
-        try:
-            run()
-        except Exception as e:
-            print(f"Ocorreu um erro: {e}")
-            print("Tentando novamente em 10 minutos...")
-
-        time.sleep(600)
+    try:
+        run()
+    except Exception as e:
+        print(f"Ocorreu um erro: {e}")
