@@ -165,7 +165,11 @@ if __name__ == "__main__":
         with open(STORAGE_STATE_FILE, "w", encoding="utf-8") as f:
             f.write(os.environ["STORAGE_STATE_JSON"])
 
-    try:
-        run()
-    except Exception as e:
-        print(f"Ocorreu um erro: {e}")
+    while True:
+        try:
+            run()
+        except Exception as e:
+            print(f"Ocorreu um erro: {e}")
+            print("Tentando novamente em 10 minutos...")
+
+        time.sleep(600)
