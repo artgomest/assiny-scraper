@@ -1,0 +1,39 @@
+name: Assiny Scraper
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps
+
+      - name: Create Google Login state
+        run: echo "${{ secrets.STORAGE_STATE_JSON }}" > google_login.json
+        shell: bash
+
+      - name: Run scraper
+        run: python assiny_scraper.py
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add valor_assiny.csv
+          git diff --staged --quiet || (git commit -m "Update valor_assiny.csv" && git push)
+        shell: bash
