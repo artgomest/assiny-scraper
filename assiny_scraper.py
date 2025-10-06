@@ -15,9 +15,7 @@ CSV_PATH = "valor_assiny.csv"
 STORAGE_STATE_FILE = "google_login.json"
 
 # Seletor exato para o Valor Líquido que você me passou
-SELECTOR_VALOR_LIQUIDO = ("body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > "
-                         "section.sectionContent > div > div.sc-6b5fc9f9-0.fgkMrj > div:nth-child(1) > "
-                         "div:nth-child(1) > div:nth-child(1) > div.sc-6b5fc9f9-7.blobef > div:nth-child(1) > div")
+SELECTOR_VALOR_LIQUIDO = ("body > div:nth-child(1) > div > div.sc-88f1a04b-3.waZHj > main > div > div > section.sectionContent > div > div.sc-6b5fc9f9-0.fgkMrj > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div.sc-6b5fc9f9-7.blobef > div:nth-child(1) > div")
 
 def formatar_timestamp():
     tz = timezone(timedelta(hours=-3))
