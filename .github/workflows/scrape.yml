@@ -30,10 +30,6 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      # 3️⃣ Criar o arquivo de login (cookies)
-      - name: Criar google_login.json
-        run: echo "$STORAGE_STATE_JSON" > google_login.json
-
       # 4️⃣ Rodar o scraper
       - name: Executar script assiny_scraper.py
         run: |
