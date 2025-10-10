@@ -1,0 +1,129 @@
+{
+  "cookies": [
+    {
+      "name": "session",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImtJTVNPdyJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9hc3NpbnkiLCJuYW1lIjoiQXJ0aHVyIEdvbWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0szNGUxYnVUUDlCXy1GSjZPNHlIVERYMlFZREdHRWxWeTJpV3J2UmdBY29UQTZXOGhmb0FcdTAwM2RzOTYtYyIsImF1ZCI6ImFzc2lueSIsImF1dGhfdGltZSI6MTc2MDExMjk1NSwidXNlcl9pZCI6IkJMUWhiblloOGlRNzlHN3N3bzBSRUhQa2t6cjIiLCJzdWIiOiJCTFFoYm5ZaDhpUTc5Rzdzd28wUkVIUGtrenIyIiwiaWF0IjoxNzYwMTEyOTU1LCJleHAiOjE3NjA3MTc3NTUsImVtYWlsIjoiYXJ0aHVyZ2VzdGV2QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTAzMzUwODgyNjkwNDA5NTA2NTM1Il0sImVtYWlsIjpbImFydGh1cmdlc3RldkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.Vxos1JYAY9t_mUG0l2vmr6Rto-BEfVvu2jZXSf7ar41YxGFmMRDEORZuIeON1ieQWehkYWPYAoCDDBD0kF8aYwCkv3K-KMdeggyPxgVSg4iZHk4Nfr57kdq1g_SMdPnVX1xQlTUyBIqCs51UhgcWbcvdjwfYT5p-9pC8wnlr_Pxp_ABKb7s1Xmyvf2fAPXBcyrSIZW_nBsG-tljELeAiMTrItYNEs3pcqMuCLmTuEFOl3p1lE-ei895hF5uWghjg7wFWuAvDQUmTMqeJxsti-yK012WaD5U_kNZlg5ULKdGAYYwOgmowN6jmPQ1ZkIC5dJ1rjoekYdKakaUJRGU4fA",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": 1760717756.574137,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE1YTAwNWU5N2NiMWU0MjczMDBlNTJjZGQ1MGYwYjM2Y2Q4MDYyOWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQXJ0aHVyIEdvbWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0szNGUxYnVUUDlCXy1GSjZPNHlIVERYMlFZREdHRWxWeTJpV3J2UmdBY29UQTZXOGhmb0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYXNzaW55IiwiYXVkIjoiYXNzaW55IiwiYXV0aF90aW1lIjoxNzYwMTEyOTU1LCJ1c2VyX2lkIjoiQkxRaGJuWWg4aVE3OUc3c3dvMFJFSFBra3pyMiIsInN1YiI6IkJMUWhiblloOGlRNzlHN3N3bzBSRUhQa2t6cjIiLCJpYXQiOjE3NjAxMTI5NTUsImV4cCI6MTc2MDExNjU1NSwiZW1haWwiOiJhcnRodXJnZXN0ZXZAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDMzNTA4ODI2OTA0MDk1MDY1MzUiXSwiZW1haWwiOlsiYXJ0aHVyZ2VzdGV2QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.QUlbc92QUStCQ3AkQiuLHwPvAcWGsCYbgdm2jc-ycT3jrET8VxsICcDBevSU5DMmEX5K-11SQ9NIi8SK9vOB8mkZemaWESfvtTHBS2miUuGwm86mYqnuKUa2VJ6d0ErKt9LgDWch53qGub9_DExBzuSX25CtGo0R5B9mb2epMOTyicts-vTr8bVQq6Kd3MEgFGzc7gEUu8QqIf9Dc-Uunnoj3CkycjHNm9y5oYXLaFKJsLMN-LvMpoet9474HDXBoX7fXUikZ-EIXxyOkSUwuE0RsqdruWqbSZD_EfWfIa9Y39wMNFEoM5_XWiqcTgJO14iDrVwTbgYQH9vCDJAqXA",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refreshToken",
+      "value": "AMf-vBy3mTLSEjFqZPqrh85_6U8YL1MBFDEjcSTEMm97mE537ufxoFDWWNDr1nZiOz2aOPnGC5_ksWXwOapja6-8t9KDde1taUnZhvRI80rZKOYdO5YSeea0PKAeLx3GNNglV6vY5Jj5OJWYaCLFhhSmM8JJB8gcYl35auGFPSOAk4KMdPAbvGpUFwqA25aTM-VLSAluDpT-OtRkE51UEsynwV5X1jBVOw",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "firebaseUserId",
+      "value": "BLQhbnYh8iQ79G7swo0REHPkkzr2",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": 1760717756.57426,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user",
+      "value": "%7B%22id%22%3A%225a172e1c-3f2d-4d21-abbb-c129e573494a%22%2C%22name%22%3A%22Arthur%20Gomes%20Esteves%22%2C%22documentType%22%3A%22INDIVIDUAL%22%2C%22document%22%3A%2215348357766%22%2C%22email%22%3A%22arthurgestev%40gmail.com%22%2C%22phoneNumber%22%3A%2231987006343%22%2C%22firebaseId%22%3A%22BLQhbnYh8iQ79G7swo0REHPkkzr2%22%2C%22isTermsAccepted%22%3Atrue%2C%22birthDate%22%3A%220001-01-01T00%3A00%3A00Z%22%2C%22isClient%22%3Afalse%2C%22address%22%3Anull%2C%22photoURL%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocK34e1buTP9B_-FJ6O4yHTDX2QYDGGElVy2iWrvRgAcoTA6W8hfoA%3Ds96-c%22%2C%22identities%22%3A%5B%22google.com%22%2C%22email%22%5D%7D",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": 1760717756.574279,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userId",
+      "value": "5a172e1c-3f2d-4d21-abbb-c129e573494a",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "organization",
+      "value": "%7B%22id%22%3A%2251082a1f-ee65-47a7-92ef-6f49b7c14134%22%2C%22name%22%3A%22OPERACAO%20MILIONARIA%20LTDA%22%2C%22userId%22%3A%222c4c2427-52c5-4cd3-9c00-92004b4ef3d3%22%2C%22documentType%22%3A%22CORPORATE%22%2C%22document%22%3A%2240030222000171%22%2C%22email%22%3A%22WjBjfk10fFdbWCpQwESi7aEGILuIAzknwsMjbw%3D%3D%22%2C%22phoneNumber%22%3A%22M3pDQU9DQlBcUzFcLQHICymfHPY3B55%2Fg2yCJzeHPMnem88NBe5a%22%2C%22planId%22%3A%22%22%2C%22address%22%3A%7B%22zipCode%22%3A%2206454000%22%2C%22street%22%3A%22AL%20ALAMEDA%20RIO%20NEGRO%22%2C%22number%22%3A%22500%22%2C%22district%22%3A%22ALPHAVILLE%20CENTRO%20INDUSTRIAL%20E%20EMPRESARIAL%2FALPHAVILLE.%22%2C%22complement%22%3A%22ANDAR%205%20SALA%20501%20A%20508%20TORRE%20B%22%2C%22cityId%22%3A%2214dee501-cb67-410f-83bb-ae774b8d063b%22%2C%22cityName%22%3A%22Barueri%22%2C%22stateId%22%3A%22eb164ac4-d129-4543-b5c5-9b30e8af6143%22%2C%22stateName%22%3A%22S%C3%A3o%20Paulo%22%7D%2C%22statusValidate%22%3A%22approved%22%7D",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "projects",
+      "value": "%5B%7B%22organizationId%22%3A%2251082a1f-ee65-47a7-92ef-6f49b7c14134%22%2C%22organizationName%22%3A%22OPERACAO%20MILIONARIA%20LTDA%22%2C%22projectId%22%3A%22148350ac-61bc-42b7-87ee-9c8ba95c983c%22%2C%22projectName%22%3A%22MAPA%20DO%20FUTURO%22%2C%22role%22%3A%22EDITOR%22%2C%22hasAssinyPay%22%3Afalse%7D%5D",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ph_phc_9ZH7stQAgbWtDKMHOgGjEbVQKYrpAaxCypiQIch9Gwq_posthog",
+      "value": "%7B%22distinct_id%22%3A%225a172e1c-3f2d-4d21-abbb-c129e573494a%22%2C%22%24sesid%22%3A%5B1760112937506%2C%220199cee8-0a22-70d2-9378-82368400a3e6%22%2C1760112937506%5D%2C%22%24epp%22%3Atrue%7D",
+      "domain": ".assiny.com.br",
+      "path": "/",
+      "expires": 1791648962,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "organizationId",
+      "value": "51082a1f-ee65-47a7-92ef-6f49b7c14134",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "projectId",
+      "value": "148350ac-61bc-42b7-87ee-9c8ba95c983c",
+      "domain": "admin.assiny.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://admin.assiny.com.br",
+      "localStorage": [
+        {
+          "name": "ph_phc_9ZH7stQAgbWtDKMHOgGjEbVQKYrpAaxCypiQIch9Gwq_posthog",
+          "value": "{\"distinct_id\":\"5a172e1c-3f2d-4d21-abbb-c129e573494a\",\"$sesid\":[1760112937506,\"0199cee8-0a22-70d2-9378-82368400a3e6\",1760112937506],\"$epp\":true,\"$initialization_time\":\"2025-10-10T16:16:02.636Z\",\"$configured_session_timeout_ms\":1800000,\"$device_id\":\"0199cee8-07f2-75e4-a01f-21a326e4f298\",\"$user_state\":\"identified\",\"$session_recording_remote_config\":{\"enabled\":false,\"networkPayloadCapture\":{\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null}},\"canvasRecording\":{},\"sampleRate\":null,\"minimumDurationMilliseconds\":null},\"$autocapture_disabled_server_side\":false,\"$heatmaps_enabled_server_side\":true,\"$web_vitals_enabled_server_side\":true,\"$exception_capture_enabled_server_side\":false,\"$error_tracking_suppression_rules\":[],\"$active_feature_flags\":[\"refund-page\",\"orderbumpAB\",\"survey-targeting-b1bfc27c87-custom\",\"idwall\",\"pulsingInputAB\",\"new-dashboard\"],\"$enabled_feature_flags\":{\"refund-page\":true,\"orderbumpAB\":\"control\",\"survey-targeting-b1bfc27c87-custom\":true,\"idwall\":true,\"pulsingInputAB\":\"withPulse\",\"new-dashboard\":true},\"$feature_flag_payloads\":{\"orderbumpAB\":\"{\\\"show\\\": false}\",\"pulsingInputAB\":\"{\\\"show\\\":true}\"},\"$feature_flag_details\":{\"refund-page\":{\"key\":\"refund-page\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":62967,\"version\":1,\"description\":null,\"payload\":null}},\"orderbumpAB\":{\"key\":\"orderbumpAB\",\"enabled\":true,\"variant\":\"control\",\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":110913,\"version\":17,\"description\":null,\"payload\":\"{\\\"show\\\": false}\"}},\"survey-targeting-b1bfc27c87-custom\":{\"key\":\"survey-targeting-b1bfc27c87-custom\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":66123,\"version\":1,\"description\":null,\"payload\":null}},\"idwall\":{\"key\":\"idwall\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":58110,\"version\":1,\"description\":null,\"payload\":null}},\"pulsingInputAB\":{\"key\":\"pulsingInputAB\",\"enabled\":true,\"variant\":\"withPulse\",\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":109524,\"version\":7,\"description\":null,\"payload\":\"{\\\"show\\\":true}\"}},\"new-dashboard\":{\"key\":\"new-dashboard\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":63720,\"version\":1,\"description\":null,\"payload\":null}}},\"$feature_flag_request_id\":\"f0974d32-5542-4355-a22d-e987903562c1\",\"$client_session_props\":{\"sessionId\":\"0199cee8-0a22-70d2-9378-82368400a3e6\",\"props\":{\"r\":\"$direct\",\"u\":\"https://admin.assiny.com.br/login\"}},\"$user_id\":\"5a172e1c-3f2d-4d21-abbb-c129e573494a\",\"$stored_person_properties\":{\"email\":\"arthurgestev@gmail.com\",\"name\":\"Arthur Gomes Esteves\",\"phone\":\"31987006343\",\"$ip\":\"186.206.142.194\",\"$user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"},\"$web_vitals_allowed_metrics\":null,\"$dead_clicks_enabled_server_side\":false}"
+        },
+        {
+          "name": "userIp",
+          "value": "186.206.142.194"
+        }
+      ]
+    }
+  ]
+}
