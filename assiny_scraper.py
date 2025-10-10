@@ -469,7 +469,7 @@ def fetch_snapshot(page) -> Dict:
 def main():
     with sync_playwright() as p:
         # 🔹 Importante: carregar o storage_state antes de criar a página
-        browser = p.chromium.launch(headless=("--headed" in sys.argv))
+        browser = p.chromium.launch(headless=("--headed" not in sys.argv))
         context = browser.new_context(storage_state="google_login.json")
         page = context.new_page()
 
