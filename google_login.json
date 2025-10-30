@@ -1,18 +1,28 @@
 {
   "cookies": [
     {
+      "name": "cfz_zaraz-analytics",
+      "value": "%7B%22_cfa_clientId%22%3A%7B%22v%22%3A%2272443438762452780%22%2C%22e%22%3A1793374726953%7D%2C%22_cfa_sId%22%3A%7B%22v%22%3A%2215473473421473538%22%2C%22e%22%3A1761840526953%7D%7D",
+      "domain": ".assiny.com.br",
+      "path": "/",
+      "expires": 1793374755.676684,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
       "name": "session",
-      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImtJTVNPdyJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9hc3NpbnkiLCJuYW1lIjoiQXJ0aHVyIEdvbWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0szNGUxYnVUUDlCXy1GSjZPNHlIVERYMlFZREdHRWxWeTJpV3J2UmdBY29UQTZXOGhmb0FcdTAwM2RzOTYtYyIsImF1ZCI6ImFzc2lueSIsImF1dGhfdGltZSI6MTc2MDExMjk1NSwidXNlcl9pZCI6IkJMUWhiblloOGlRNzlHN3N3bzBSRUhQa2t6cjIiLCJzdWIiOiJCTFFoYm5ZaDhpUTc5Rzdzd28wUkVIUGtrenIyIiwiaWF0IjoxNzYwMTEyOTU1LCJleHAiOjE3NjA3MTc3NTUsImVtYWlsIjoiYXJ0aHVyZ2VzdGV2QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTAzMzUwODgyNjkwNDA5NTA2NTM1Il0sImVtYWlsIjpbImFydGh1cmdlc3RldkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.Vxos1JYAY9t_mUG0l2vmr6Rto-BEfVvu2jZXSf7ar41YxGFmMRDEORZuIeON1ieQWehkYWPYAoCDDBD0kF8aYwCkv3K-KMdeggyPxgVSg4iZHk4Nfr57kdq1g_SMdPnVX1xQlTUyBIqCs51UhgcWbcvdjwfYT5p-9pC8wnlr_Pxp_ABKb7s1Xmyvf2fAPXBcyrSIZW_nBsG-tljELeAiMTrItYNEs3pcqMuCLmTuEFOl3p1lE-ei895hF5uWghjg7wFWuAvDQUmTMqeJxsti-yK012WaD5U_kNZlg5ULKdGAYYwOgmowN6jmPQ1ZkIC5dJ1rjoekYdKakaUJRGU4fA",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6Il9FcFMtUSJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9hc3NpbnkiLCJuYW1lIjoiQXJ0aHVyIEdvbWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0szNGUxYnVUUDlCXy1GSjZPNHlIVERYMlFZREdHRWxWeTJpV3J2UmdBY29UQTZXOGhmb0FcdTAwM2RzOTYtYyIsImF1ZCI6ImFzc2lueSIsImF1dGhfdGltZSI6MTc2MTgzODc0NCwidXNlcl9pZCI6IkJMUWhiblloOGlRNzlHN3N3bzBSRUhQa2t6cjIiLCJzdWIiOiJCTFFoYm5ZaDhpUTc5Rzdzd28wUkVIUGtrenIyIiwiaWF0IjoxNzYxODM4NzQ1LCJleHAiOjE3NjI0NDM1NDUsImVtYWlsIjoiYXJ0aHVyZ2VzdGV2QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTAzMzUwODgyNjkwNDA5NTA2NTM1Il0sImVtYWlsIjpbImFydGh1cmdlc3RldkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.axZbbZ6dI_-NARnILTlpqN73Rtlaq-R1DfbjDFoEI6vFpDBqt7ONwLbIOvD0RlAigPYE6uHLQUf-6fgkwI-K2QcVJ_Y--MCehOarJ12B2pbhuslIqbZ8KbSofh2PnnPlrp4tUv2G7wHq62YD_70dCH2b2LiWpfObGIhBwASNeJ993Aw6VzGeh9XIZESDEBZO0A9bhvzO4Ai1ngbghRQOf7dYHJ8Sjjbk5o2WvAIh7Vjudtc8h_hGJyAUnKEmdDEdZM32rbo9QTAMfuip6jEq_p2dYQHUcppO5i3UR-jc_CEUF0JGh16A8BWeKLT5i_FR2wC7qzZLB_3ndWdxk0g__Q",
       "domain": "admin.assiny.com.br",
       "path": "/",
-      "expires": 1760717756.574137,
+      "expires": 1762443546.447532,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "token",
-      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE1YTAwNWU5N2NiMWU0MjczMDBlNTJjZGQ1MGYwYjM2Y2Q4MDYyOWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQXJ0aHVyIEdvbWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0szNGUxYnVUUDlCXy1GSjZPNHlIVERYMlFZREdHRWxWeTJpV3J2UmdBY29UQTZXOGhmb0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYXNzaW55IiwiYXVkIjoiYXNzaW55IiwiYXV0aF90aW1lIjoxNzYwMTEyOTU1LCJ1c2VyX2lkIjoiQkxRaGJuWWg4aVE3OUc3c3dvMFJFSFBra3pyMiIsInN1YiI6IkJMUWhiblloOGlRNzlHN3N3bzBSRUhQa2t6cjIiLCJpYXQiOjE3NjAxMTI5NTUsImV4cCI6MTc2MDExNjU1NSwiZW1haWwiOiJhcnRodXJnZXN0ZXZAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDMzNTA4ODI2OTA0MDk1MDY1MzUiXSwiZW1haWwiOlsiYXJ0aHVyZ2VzdGV2QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.QUlbc92QUStCQ3AkQiuLHwPvAcWGsCYbgdm2jc-ycT3jrET8VxsICcDBevSU5DMmEX5K-11SQ9NIi8SK9vOB8mkZemaWESfvtTHBS2miUuGwm86mYqnuKUa2VJ6d0ErKt9LgDWch53qGub9_DExBzuSX25CtGo0R5B9mb2epMOTyicts-vTr8bVQq6Kd3MEgFGzc7gEUu8QqIf9Dc-Uunnoj3CkycjHNm9y5oYXLaFKJsLMN-LvMpoet9474HDXBoX7fXUikZ-EIXxyOkSUwuE0RsqdruWqbSZD_EfWfIa9Y39wMNFEoM5_XWiqcTgJO14iDrVwTbgYQH9vCDJAqXA",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjdlYTA5ZDA1NzI2MmU2M2U2MmZmNzNmMDNlMDRhZDI5ZDg5Zjg5MmEiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQXJ0aHVyIEdvbWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0szNGUxYnVUUDlCXy1GSjZPNHlIVERYMlFZREdHRWxWeTJpV3J2UmdBY29UQTZXOGhmb0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYXNzaW55IiwiYXVkIjoiYXNzaW55IiwiYXV0aF90aW1lIjoxNzYxODM4NzQ0LCJ1c2VyX2lkIjoiQkxRaGJuWWg4aVE3OUc3c3dvMFJFSFBra3pyMiIsInN1YiI6IkJMUWhiblloOGlRNzlHN3N3bzBSRUhQa2t6cjIiLCJpYXQiOjE3NjE4Mzg3NDQsImV4cCI6MTc2MTg0MjM0NCwiZW1haWwiOiJhcnRodXJnZXN0ZXZAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDMzNTA4ODI2OTA0MDk1MDY1MzUiXSwiZW1haWwiOlsiYXJ0aHVyZ2VzdGV2QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.YOU93-nKr9T6iKiwI8Ym2dTsXHIJhsVKnBK6LY0hZsiCwxLn_zIGCjb5SRAdGg5_CbCsCd4wfGRaxVxYVjmzBXt-bYj68pB72youyf8dd5um7S9ommBpKSi--Hc7k4B1H3EJVXLy8IggtGMVkwgFrF2zYxqSl6evqpQgIVwYUBQE3n4QYSeYpFH2yKpWdVVJCc4qPIKOYru_qVsUq3sfdXL-gfcHm-F5VDQOJYsgP2IILn26R1PYy5jI6EuHbu919uhPb0_bbMToGzSS8Qe0rdGlRsvr3h4L2ABghUV3hgm6OKuzW7Mba6I1ohfEEetL6cnGfCRaC7n_E-B_ef51bA",
       "domain": "admin.assiny.com.br",
       "path": "/",
       "expires": -1,
@@ -22,7 +32,7 @@
     },
     {
       "name": "refreshToken",
-      "value": "AMf-vBy3mTLSEjFqZPqrh85_6U8YL1MBFDEjcSTEMm97mE537ufxoFDWWNDr1nZiOz2aOPnGC5_ksWXwOapja6-8t9KDde1taUnZhvRI80rZKOYdO5YSeea0PKAeLx3GNNglV6vY5Jj5OJWYaCLFhhSmM8JJB8gcYl35auGFPSOAk4KMdPAbvGpUFwqA25aTM-VLSAluDpT-OtRkE51UEsynwV5X1jBVOw",
+      "value": "AMf-vBx3mds8DbWt7N3Jp9GQZ_JXXHvX2DizZQ_faycsaQGHaCVRm4r3fIM3NeM9EmvVUu-rxENuzKW7tuM0YuAfJZV4XzTrxO3K8r2-dpXgIZW8AP1MwmC9754_TX_x7EBuvm5fJmPS9tRWQ61g1mbxpCZZpvLlk9Gk26M2DtvipRSD36a2QufZv9uQeCXzeWZXt46vSoIU07MeCCmmrXU8bzESPnZ7_w",
       "domain": "admin.assiny.com.br",
       "path": "/",
       "expires": -1,
@@ -35,7 +45,7 @@
       "value": "BLQhbnYh8iQ79G7swo0REHPkkzr2",
       "domain": "admin.assiny.com.br",
       "path": "/",
-      "expires": 1760717756.57426,
+      "expires": 1762443546.447671,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -45,7 +55,7 @@
       "value": "%7B%22id%22%3A%225a172e1c-3f2d-4d21-abbb-c129e573494a%22%2C%22name%22%3A%22Arthur%20Gomes%20Esteves%22%2C%22documentType%22%3A%22INDIVIDUAL%22%2C%22document%22%3A%2215348357766%22%2C%22email%22%3A%22arthurgestev%40gmail.com%22%2C%22phoneNumber%22%3A%2231987006343%22%2C%22firebaseId%22%3A%22BLQhbnYh8iQ79G7swo0REHPkkzr2%22%2C%22isTermsAccepted%22%3Atrue%2C%22birthDate%22%3A%220001-01-01T00%3A00%3A00Z%22%2C%22isClient%22%3Afalse%2C%22address%22%3Anull%2C%22photoURL%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocK34e1buTP9B_-FJ6O4yHTDX2QYDGGElVy2iWrvRgAcoTA6W8hfoA%3Ds96-c%22%2C%22identities%22%3A%5B%22google.com%22%2C%22email%22%5D%7D",
       "domain": "admin.assiny.com.br",
       "path": "/",
-      "expires": 1760717756.574279,
+      "expires": 1762443546.447686,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -82,10 +92,10 @@
     },
     {
       "name": "ph_phc_9ZH7stQAgbWtDKMHOgGjEbVQKYrpAaxCypiQIch9Gwq_posthog",
-      "value": "%7B%22distinct_id%22%3A%225a172e1c-3f2d-4d21-abbb-c129e573494a%22%2C%22%24sesid%22%3A%5B1760112937506%2C%220199cee8-0a22-70d2-9378-82368400a3e6%22%2C1760112937506%5D%2C%22%24epp%22%3Atrue%7D",
+      "value": "%7B%22distinct_id%22%3A%225a172e1c-3f2d-4d21-abbb-c129e573494a%22%2C%22%24sesid%22%3A%5B1761838727961%2C%22019a35c5-8319-781b-be05-1c9f2255508f%22%2C1761838727961%5D%2C%22%24epp%22%3Atrue%7D",
       "domain": ".assiny.com.br",
       "path": "/",
-      "expires": 1791648962,
+      "expires": 1793374753,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -117,7 +127,7 @@
       "localStorage": [
         {
           "name": "ph_phc_9ZH7stQAgbWtDKMHOgGjEbVQKYrpAaxCypiQIch9Gwq_posthog",
-          "value": "{\"distinct_id\":\"5a172e1c-3f2d-4d21-abbb-c129e573494a\",\"$sesid\":[1760112937506,\"0199cee8-0a22-70d2-9378-82368400a3e6\",1760112937506],\"$epp\":true,\"$initialization_time\":\"2025-10-10T16:16:02.636Z\",\"$configured_session_timeout_ms\":1800000,\"$device_id\":\"0199cee8-07f2-75e4-a01f-21a326e4f298\",\"$user_state\":\"identified\",\"$session_recording_remote_config\":{\"enabled\":false,\"networkPayloadCapture\":{\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null}},\"canvasRecording\":{},\"sampleRate\":null,\"minimumDurationMilliseconds\":null},\"$autocapture_disabled_server_side\":false,\"$heatmaps_enabled_server_side\":true,\"$web_vitals_enabled_server_side\":true,\"$exception_capture_enabled_server_side\":false,\"$error_tracking_suppression_rules\":[],\"$active_feature_flags\":[\"refund-page\",\"orderbumpAB\",\"survey-targeting-b1bfc27c87-custom\",\"idwall\",\"pulsingInputAB\",\"new-dashboard\"],\"$enabled_feature_flags\":{\"refund-page\":true,\"orderbumpAB\":\"control\",\"survey-targeting-b1bfc27c87-custom\":true,\"idwall\":true,\"pulsingInputAB\":\"withPulse\",\"new-dashboard\":true},\"$feature_flag_payloads\":{\"orderbumpAB\":\"{\\\"show\\\": false}\",\"pulsingInputAB\":\"{\\\"show\\\":true}\"},\"$feature_flag_details\":{\"refund-page\":{\"key\":\"refund-page\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":62967,\"version\":1,\"description\":null,\"payload\":null}},\"orderbumpAB\":{\"key\":\"orderbumpAB\",\"enabled\":true,\"variant\":\"control\",\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":110913,\"version\":17,\"description\":null,\"payload\":\"{\\\"show\\\": false}\"}},\"survey-targeting-b1bfc27c87-custom\":{\"key\":\"survey-targeting-b1bfc27c87-custom\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":66123,\"version\":1,\"description\":null,\"payload\":null}},\"idwall\":{\"key\":\"idwall\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":58110,\"version\":1,\"description\":null,\"payload\":null}},\"pulsingInputAB\":{\"key\":\"pulsingInputAB\",\"enabled\":true,\"variant\":\"withPulse\",\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":109524,\"version\":7,\"description\":null,\"payload\":\"{\\\"show\\\":true}\"}},\"new-dashboard\":{\"key\":\"new-dashboard\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":63720,\"version\":1,\"description\":null,\"payload\":null}}},\"$feature_flag_request_id\":\"f0974d32-5542-4355-a22d-e987903562c1\",\"$client_session_props\":{\"sessionId\":\"0199cee8-0a22-70d2-9378-82368400a3e6\",\"props\":{\"r\":\"$direct\",\"u\":\"https://admin.assiny.com.br/login\"}},\"$user_id\":\"5a172e1c-3f2d-4d21-abbb-c129e573494a\",\"$stored_person_properties\":{\"email\":\"arthurgestev@gmail.com\",\"name\":\"Arthur Gomes Esteves\",\"phone\":\"31987006343\",\"$ip\":\"186.206.142.194\",\"$user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"},\"$web_vitals_allowed_metrics\":null,\"$dead_clicks_enabled_server_side\":false}"
+          "value": "{\"distinct_id\":\"5a172e1c-3f2d-4d21-abbb-c129e573494a\",\"$sesid\":[1761838727961,\"019a35c5-8319-781b-be05-1c9f2255508f\",1761838727961],\"$epp\":true,\"$initialization_time\":\"2025-10-30T15:39:12.931Z\",\"$configured_session_timeout_ms\":1800000,\"$device_id\":\"019a35c5-811d-77ee-a510-e2b50937bba2\",\"$user_state\":\"identified\",\"$session_recording_remote_config\":{\"enabled\":false,\"networkPayloadCapture\":{\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null}},\"canvasRecording\":{},\"sampleRate\":null,\"minimumDurationMilliseconds\":null},\"$autocapture_disabled_server_side\":false,\"$heatmaps_enabled_server_side\":true,\"$web_vitals_enabled_server_side\":true,\"$web_vitals_allowed_metrics\":null,\"$exception_capture_enabled_server_side\":false,\"$error_tracking_suppression_rules\":[],\"$dead_clicks_enabled_server_side\":false,\"$active_feature_flags\":[\"pulsingInputAB\",\"survey-targeting-b1bfc27c87-custom\",\"orderbumpAB\",\"refund-page\",\"idwall\",\"new-dashboard\"],\"$enabled_feature_flags\":{\"pulsingInputAB\":\"withPulse\",\"survey-targeting-b1bfc27c87-custom\":true,\"orderbumpAB\":\"control\",\"refund-page\":true,\"idwall\":true,\"new-dashboard\":true},\"$feature_flag_payloads\":{\"pulsingInputAB\":\"{\\\"show\\\":true}\",\"orderbumpAB\":\"{\\\"show\\\": false}\"},\"$feature_flag_details\":{\"pulsingInputAB\":{\"key\":\"pulsingInputAB\",\"enabled\":true,\"variant\":\"withPulse\",\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":109524,\"version\":7,\"description\":null,\"payload\":\"{\\\"show\\\":true}\"}},\"survey-targeting-b1bfc27c87-custom\":{\"key\":\"survey-targeting-b1bfc27c87-custom\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":66123,\"version\":1,\"description\":null,\"payload\":null}},\"orderbumpAB\":{\"key\":\"orderbumpAB\",\"enabled\":true,\"variant\":\"control\",\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":110913,\"version\":17,\"description\":null,\"payload\":\"{\\\"show\\\": false}\"}},\"refund-page\":{\"key\":\"refund-page\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":62967,\"version\":1,\"description\":null,\"payload\":null}},\"idwall\":{\"key\":\"idwall\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":58110,\"version\":1,\"description\":null,\"payload\":null}},\"new-dashboard\":{\"key\":\"new-dashboard\",\"enabled\":true,\"variant\":null,\"reason\":{\"code\":\"condition_match\",\"condition_index\":0,\"description\":\"Matched condition set 1\"},\"metadata\":{\"id\":63720,\"version\":1,\"description\":null,\"payload\":null}}},\"$feature_flag_request_id\":\"7ced943e-c15d-4724-8c95-279f4ff6f6b6\",\"$client_session_props\":{\"sessionId\":\"019a35c5-8319-781b-be05-1c9f2255508f\",\"props\":{\"r\":\"$direct\",\"u\":\"https://admin.assiny.com.br/login\"}},\"$user_id\":\"5a172e1c-3f2d-4d21-abbb-c129e573494a\",\"$stored_person_properties\":{\"email\":\"arthurgestev@gmail.com\",\"name\":\"Arthur Gomes Esteves\",\"phone\":\"31987006343\",\"$ip\":\"186.206.142.194\",\"$user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}}"
         },
         {
           "name": "userIp",
