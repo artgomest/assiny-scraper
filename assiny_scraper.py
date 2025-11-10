@@ -314,4 +314,4 @@ def wait_for_valor_atualizado(page: Page, selector: str, timeout_ms: int = 15000
     
     while (datetime.now() - inicio).total_seconds() * 1000 < timeout_ms:
         txt = safe_text(page, selector, timeout=500)
-        if "R
+                 if "R$" in txt:
