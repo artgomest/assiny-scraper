@@ -2,9 +2,8 @@ name: Assiny Scraper Automation
 
 on:
   schedule:
-    - cron: "0 10 * * *"
-  workflow_dispatch:
-
+    - cron: "*/30 * * * *"
+      workflow_dispatch:
 jobs:
   scrape:
     runs-on: ubuntu-latest
